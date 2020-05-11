@@ -69,8 +69,7 @@ hr {
 	border-top: solid black 2px;
 }
 /*navbar styling END*/
-#menu-title {
-	text-align: center;
+.text-center {
 	margin-bottom: 30px;
 	font-family: 'Balsamiq Sans', cursive;
 	font-weight: bold;
