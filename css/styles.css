@@ -80,7 +80,7 @@ hr {
 .content {
 	background-color: grey;
 	padding: 0 15px 15px;
-	margin: 0 15px 15px;
+	margin-bottom: 15px;
 	font-size: 16px;
 }
 .content > h2 {
@@ -93,7 +93,7 @@ hr {
 @media (max-width: 767px) {
 	.content {
 		padding: 0 30px;
-		margin: 0 80px 30px;
+		margin: 0 65px 30px;
 	}
 	.navbar-header {
 		padding: 15px 20px 15px 30px;
