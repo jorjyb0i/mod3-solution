@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	color: black;
+}
+.container {
+	width: 100%;
+	padding: 0;
+}
+.container > .navbar-header {
+	width: 100%;
+	margin: 0;
+}
+/*navbar styling START*/
+.navbar {
+	background-color: grey;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-radius: 0px;
+}
+.navbar-header {
+	padding: 10px 30px 20px;
+	border-bottom: 3px solid black;
+}
+.navbar-default .navbar-collapse {
+	padding: 0;
+	margin: 0;
+}
+#brand {
+	color: black;
+	font-size: 34px;
+}
+.navbar-toggle {
+	margin: -5px 5px -5px;
+	height: 60px;
+	width: 60px;
+	padding: 0 5px 0;
+}
+.navbar-default .navbar-toggle {
+	border: 2px solid black;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	border-color: #ddd;
+	background-color: transparent;
+}
+.navbar-default .navbar-toggle:focus > span, .navbar-default .navbar-toggle:hover > span {
+	background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+	height: 6px;
+	border-radius: 2px;
+	width: 100%;
+	margin: 9px 0 9px;
+}
+.navbar-nav {
+	background-color: white;
+	margin: 0;
+}
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
+hr {
+	margin: 0 5px 0;
+	border-top: solid black 2px;
+}
+/*navbar styling END*/
+#menu-title {
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	color: black;
+}
+/*content styling START*/
+.row {
+	margin: 0;
+}
+.content {
+	background-color: grey;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	font-size: 16px;
+	margin: 0 15px 15px;
+}
+.content > h2 {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+	font-weight: bold;
+}
+/*content styling END*/
+@media (max-width: 767px) {
+	.content {
+		padding-left: 30px;
+		padding-right: 30px;
+		margin: 0 80px 30px;
+	}
+	.navbar-header {
+		padding: 15px 20px 15px 30px;
+	}
+	.navbar-default .navbar-collapse {
+		border: 3px solid black;
+		border-top: 0;
+	}
+}
