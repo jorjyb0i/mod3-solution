@@ -61,10 +61,12 @@
 	color: black;
 	text-align: center;
 	font-size: 20px;
+	border-bottom: 2px solid black;
+	width: 97%;
+	margin: 0 auto;
 }
-hr {
-	margin: 0 5px 0;
-	border-top: solid black 2px;
+#last-section {
+	border-bottom: 0;
 }
 /*navbar styling END*/
 .text-center {
@@ -75,24 +77,32 @@ hr {
 }
 /*content styling START*/
 .row {
-	margin: 0;
+	margin: 0 10px;
 }
 .content {
 	background-color: grey;
 	padding: 0 15px 15px;
-	margin-bottom: 15px;
+	margin: 0 10px 15px;
 	font-size: 16px;
+	float: left;;
+	clear: both;
 }
-.content > h2 {
+.content > h3 {
 	text-align: center;
 	padding: 10px 0;
 	margin: 0;
 	font-weight: bold;
 }
+p {
+	margin: 0;
+}
+p > a {
+	color: #23527c;
+}
 /*content styling END*/
 @media (max-width: 767px) {
 	.content {
-		padding: 0 30px;
+		padding: 0 30px 10px;
 		margin: 0 65px 30px;
 	}
 	.navbar-header {
@@ -102,4 +112,7 @@ hr {
 		border: 3px solid black;
 		border-top: 0;
 	}
+}
+.col-md-4, .col-sm-6, .col-sm-12, .col-xs-12 {
+	padding: 0;
 }
